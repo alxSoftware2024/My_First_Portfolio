@@ -16,3 +16,65 @@ aside{
     flex: 1;
     overflow-y: auto;
 }
+div.myheading{
+    font-size: larger;
+    color: rgb(23, 110, 145);
+padding-left: 500px;
+}
+.box{
+    display: flex;
+    padding-left:700px;
+}
+.box1{
+    flex: 1 1 auto;
+  }
+  .box2{
+    flex: 1 1 auto;
+  }
+  .box3{
+    flex: 1 1 auto;
+  }
+  .box4{
+    flex: 1 1 auto;
+  }
+  h1.heading1{
+    padding-left: 100px;
+  }
+  .page1{
+    display: flex;
+  }
+   table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 700px;
+  }
+  td,th{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2;}
+  tr:hover {background-color: #ddd;}
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  footer{
+    background-color: aqua;
+    border: #04AA6D;
+    border-radius: 2px;
+    height: 70px;
+  }
+  .body1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .heading2{
+    padding-left: 100px;
+  }
+  .heading3{
+    padding-left: 100px;
+  }
