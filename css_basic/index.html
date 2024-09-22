@@ -12,16 +12,16 @@
             <header>
                 <ul class="box">
                     <li class="box1">
-                        <a href="tweets.html">HOME</a>
+                        <a href="index.html">HOME</a>
                     </li>
                     <li class="box2">
                         <a href="tweets.html">TWEETS</a>
                     </li>
                     <li class="box3"> 
-                        <a href="tweets.html">ABOUT</a>
+                        <a href="#">ABOUT</a>
                     </li>
                     <li class="box4">
-                        <a href="tweets.html">CONTACT US</a>
+                        <a href="#">CONTACT US</a>
                     </li>
                 </ul>
             </header>
@@ -39,9 +39,7 @@
     </div>
     <h2 class="heading2">ALX VENTURES: #DO HARD THINGS</h2>
     <div>
-        <video controls width="700px" height="400px">
-            <source src="https://www.youtube.com/watch?v=qZRPjGEbrT0">
-        </video>
+<iframe width="700" height="400" src="https://www.youtube.com/embed/qZRPjGEbrT0?si=h6eLs6H5voYXkcqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     
     <h3 class="heading3">LIST OF ALX STUDENT</h3>
@@ -84,11 +82,35 @@
 </table>
 </article>
 <aside>
-    <p style="font-size: 40px;"> placeholder to add comment thread later</p>
+    
+    <div id="form-main">
+        <div id="form-div">
+          <form class="form" id="form1">
+            
+            <p class="name">
+              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+            </p>
+            
+            <p class="email">
+              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+            </p>
+            
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+            </p>
+            
+            
+            <div class="submit">
+              <input type="submit" value="SEND" id="button-blue"/>
+              <div class="ease"></div>
+            </div>
+          </form>
+        </div>
+   
 </aside>
             </main>
             <footer>
-                Made by ASHENAFI - <a href="https://twitter.com/TwitterDev" target="_blank">here</a>
+              <p style="padding-left: 500px;"> Made by ASHENAFI - <a href="#" target="_blank">here</a></p> 
             </footer>
             
         </body>
